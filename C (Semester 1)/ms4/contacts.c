@@ -3,32 +3,28 @@ Name: Chaz Pierre
 Student number: 123206179
 Email: cpierre4@myseneca.ca
 Section: SHH
-Date: March 4th 2018
+Date: March 26th 2018
 ----------------------------------------------
-Assignment: 1
-Milestone:  4
+Assignment: 2
+Milestone:  3
 ---------------------------------------------- */
+
+
 
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
-
-// This source file needs to "know about" the structures you declared
-// in the header file before referring to those new types:
-// HINT: put the header file name in double quotes so the compiler knows
-//       to look for it in the same directory/folder as this source file
-// #include your contacts header file on the next line:
 #include "contacts.h"
+#include "contactHelpers.h"
 
-// Get and store from standard input the values for Name
-// Put your code here that defines the Contact getName function:
+// getName:
 void getName(struct Name *a) {
 	char check;
 	printf("Please enter the contact's first name: ");
 	scanf(" %[^\n]", (*a).firstName);
 	printf("Do you want to enter a middle initial(s)? (y or n): ");
-	scanf(" %c", &check);
-	if (check == 'y' || check == 'Y') {
+	check = yes();
+	if (check == 1) {
 		printf("Please enter the contact's middle initial(s): ");
 		scanf(" %[^\n]", (*a).middleInitial);
 	}
@@ -36,8 +32,7 @@ void getName(struct Name *a) {
 	scanf(" %[^\n]", (*a).lastName);
 }
 
-// Get and store from standard input the values for Address
-// Put your code here that defines the Contact getAddress function:
+// getAddress:
 void getAddress(struct Address *a) {
 	char check;
 	printf("Please enter the contact's street number: ");
@@ -45,8 +40,8 @@ void getAddress(struct Address *a) {
 	printf("Please enter the contact's street name: ");
 	scanf(" %[^\n]", (*a).street);
 	printf("Do you want to enter an apartment number? (y or n): ");
-	scanf(" %c", &check);
-	if (check == 'y' || check == 'Y') {
+	check = yes();
+	if (check == 1) {
 		printf("Please enter the contact's apartment number: ");
 		scanf("%d", &(*a).apartmentNumber);
 	}
@@ -56,32 +51,31 @@ void getAddress(struct Address *a) {
 	scanf(" %[^\n]", (*a).city);
 }
 
-// Get and store from standard input the values for Numbers
-// Put your code here that defines the Contact getNumbers function:
+// getNumbers:
 void getNumbers(struct Numbers *a) {
 	char check;
-	printf("Do you want to enter a cell phone number? (y or n): ");
-	scanf(" %c", &check);
-	if (check == 'y' || check == 'Y') {
-		printf("Please enter the contact's cell phone number: ");
-		scanf(" %[^\n]", (*a).cell);
-	}
+	printf("Please enter the contact's cell phone number: ");
+	getTenDigitPhone(a->cell);
 	printf("Do you want to enter a home phone number? (y or n): ");
-	scanf(" %c", &check);
-	if (check == 'y' || check == 'Y') {
+	check = yes();
+	if (check == 1) {
 		printf("Please enter the contact's home phone number: ");
-		scanf(" %[^\n]", (*a).home);
+		getTenDigitPhone(a->home);
 	}
+	else
+		*a->home = '\0';
 	printf("Do you want to enter a business phone number? (y or n): ");
-	scanf(" %c", &check);
-	if (check == 'y' || check == 'Y') {
+	check = yes();
+	if (check == 1) {
 		printf("Please enter the contact's business phone number: ");
-		scanf(" %[^\n]", (*a).business);
+		getTenDigitPhone(a->business);
 	}
+	else
+		*a->business = '\0';
 }
 
-// Display Contact summary details function
-void displayContact(struct Contact *a) {
+// displayContact:
+void printContact(struct Contact *a) {
 	printf("\nContact Details\n");
 	printf("---------------\n");
 	printf("Name Details\n");
@@ -96,11 +90,18 @@ void displayContact(struct Contact *a) {
 		printf("Apartment: %d\n", (*a).address.apartmentNumber);
 	printf("Postal code: %s\n", (*a).address.postalCode);
 	printf("City: %s\n", (*a).address.city);
-	printf("\nPhone Numbers:\n");
+	printf("\nPhone numbers:\n");
 	if ((*a).numbers.cell[0] != 0)
 		printf("Cell phone number: %s\n", (*a).numbers.cell);
 	if ((*a).numbers.home[0] != 0)
 		printf("Home phone number: %s\n", (*a).numbers.home);
 	if ((*a).numbers.business[0] != 0)
 		printf("Business phone number: %s\n", (*a).numbers.business);
+}
+
+// getContact
+void getContact(struct Contact *a) {
+	getName(&a->name);
+	getAddress(&a->address);
+	getNumbers(&a->numbers);
 }

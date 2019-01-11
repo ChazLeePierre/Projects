@@ -3,11 +3,18 @@ Name: Chaz Pierre
 Student number: 123206179
 Email: cpierre4@myseneca.ca
 Section: SHH
-Date: March 4th 2018
+Date: March 26th 2018
 ----------------------------------------------
-Assignment: 1
-Milestone:  4
+Assignment: 2
+Milestone:  3
 ---------------------------------------------- */
+
+#ifndef CONTACTS_H_
+#define CONTACTS_H_
+
+//------------------------------------------------------
+// Structure Types
+//------------------------------------------------------
 
 // Structure type Name declaration
 struct Name {
@@ -27,9 +34,9 @@ struct Address {
 
 // Structure type Numbers declaration
 struct Numbers {
-	char cell[21];
-	char home[21];
-	char business[21];
+	char cell[11];
+	char home[11];
+	char business[11];
 };
 
 // Structure type Contact declaration
@@ -39,8 +46,14 @@ struct Contact {
 	struct Numbers numbers;
 };
 
-// Function declaration
+//------------------------------------------------------
+// Function Prototypes
+//------------------------------------------------------
+
 void getName(struct Name *a);
 void getAddress(struct Address *a);
 void getNumbers(struct Numbers *a);
-void displayContact(struct Contact *a);
+void printContact(struct Contact *a);
+void getContact(struct Contact *a);
+
+#endif // !CONTACTS_H_

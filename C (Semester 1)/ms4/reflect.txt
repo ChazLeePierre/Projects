@@ -2,22 +2,24 @@ Name: Chaz Pierre
 Student number: 123206179
 Email: cpierre4@myseneca.ca
 Section: SHH
-Date: March 4th 2018
-Assignment: 1
+Date: March 28th 2018
+----------------------------------------------
+Assignment: 2
 Milestone:  4
 
-1. Briefly explain why you think this assignment has asked you to code a struct, Contact, that holds three other structs as data members.
+3. Briefly explain how the two functions findContactIndex() and getTenDigitPhone() 
+benefit your source code with respect to overall maintenance and readability.
 
-I think this assignment has asked us to code a struct that holds other structs as data members to help organize our our structures better. In this
-workshop, we only had to deal with a few structures but if it was alot of structures, we would probably want to group related structures together
-and that's exactly what nested structures do.
+The two functions findContactIndex() and getTenDigitPhone() benefit the source 
+code with respect to overall maintence and readability by assisting in covering
+possible edge cases entered by the user or something the program has not accounted
+for. With these functions in place, the program will not continue without certain
+conditions being satisfied.
 
-2. What was the most difficult part of this assignment?
+4. What did you learn most from doing Assignment 2? 
 
-Personally, I found this assignment relatively easy. If I had to say that there was a difficult part, it would most likely be keeping track of the
-members in the new struct, Contact, especially when derefrencing the struct members within the function definitions.
-
-3. How long did it take you to complete Milestone 4?
-
-It took me approximately less than an hour to complete Milestone 4. All the logic was transferred over from Milestone 2 so it was just a matter of
-nesting the structs and putting all the code into self-contained functions.
+By far, the most advanced concept I learned from doing Assignment 2 was utilizing 
+a bubble sort algorithm as one of the features. It consists of two for loops, one
+to compare the current & previous element, and another for loop to seperate the
+sorted from the unsorted. This was the first algorithm in programming that went 
+above my head, but eventually understood, and honestly it feels satisfying. 

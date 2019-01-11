@@ -1,10 +1,10 @@
 
-In line number 5 of your output:
+In line number 17 of your output:
 The output should be:
-Please enter the contact's first name: Wilma
+Select an option:> 1
 But your output is: 
-Please enter the contact's first name: ^C
-                                       ^
----------------------------------------|
-Professor's character ASCII code: hex(57), dec(87)
-un-matched character ASCII code: hex(5e), dec(94)
+Select an option:> 0
+                   ^
+-------------------|
+Professor's character ASCII code: hex(31), dec(49)
+un-matched character ASCII code: hex(30), dec(48)
