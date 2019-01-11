@@ -1,0 +1,11 @@
+
+Price List
+-----------
+Apple : 1.23
+Black Tea : 5.29
+Juice : 3.45
+
+Entries
+-------
+CPU : Central Processing Unit
+NVIDIA : Gaming Video Card
