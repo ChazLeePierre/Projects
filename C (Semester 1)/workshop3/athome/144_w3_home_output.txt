@@ -1,0 +1,26 @@
+Script started on Tue 30 Jan 2018 03:53:51 PM EST
+cameron.gray@matrix:> ws
+---=== IPC Temperature Analyzer ===---
+Enter the high value for day 1: 8
+
+Enter the low value for day 1: -2
+
+Enter the high value for day 2: 9
+
+Enter the low value for day 2: -4
+
+Enter the high value for day 3: 11
+
+Enter the low value for day 3: 5
+
+Enter the high value for day 4: 10
+
+Enter the low value for day 4: 3
+
+The average (mean) temperature was: 5.00
+The highest temperature was 11, on day 3
+The lowest temperature was -4, on day 2
+cameron.gray@matrix:> exit
+exit
+
+Script done on Tue 30 Jan 2018 03:54:08 PM EST

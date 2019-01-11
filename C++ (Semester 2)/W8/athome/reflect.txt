@@ -1,0 +1,20 @@
+Name: Chaz Pierre
+Email: cpierre4@myseneca.ca
+Student#: 123206179
+Workshop 8 reflect.txt
+
+1. What is the difference between an abstract base class and a concrete class?
+
+A concrete class is a normal class but an abstract base class is a class that
+has at least one pure virtual function (virtual func() = 0;). It forces the 
+program to not define the function in the base class, but in a derived class.
+
+2. Identify the functions that shadow functions of the same name in your solution?
+
+bool ChequingAccount::credit(double amount);
+bool ChequingAccount::debit(double amount);
+
+3. Explain what have you learned in this workshop.
+
+In this workshop, I've learned more about polymorphism, the use of virtual functions,
+pure virtual functions, and abstract base classes, and how to shadow a function.

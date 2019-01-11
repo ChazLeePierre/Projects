@@ -1,0 +1,3 @@
+#!/bin/bash
+assignment=$1
+~nasim.razavi/submit 144_${1}

@@ -1,0 +1,8 @@
+Name: Chaz Pierre
+Student number: 123206179
+Email: cpierre4@myseneca.ca
+Workshop: 1
+Section: SHH
+Date: January 23, 2018
+
+In this workshop, I have learned how to add comments, include header files, execute the main function, and print text onto the user's screen. Including the header file enabled me to use functions like printf because without the stdio.h file, the compiler would report errors as it does not know what printf means. Adding comments adds readability to my code for me and other programmers looking at my work.  

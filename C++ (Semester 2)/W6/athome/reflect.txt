@@ -1,0 +1,20 @@
+// Name: Chaz Pierre
+// Email: cpierre4@myseneca.ca
+// Student#: 123206179
+
+1. Why does the copy assignment operator check for self-assignment before doing anything else?
+
+Self-assignment will cause the program to overwrite the data before it can be copied so we must
+check for self-assignment in order to preserve the data.
+
+2. List how you avoided duplication of code.
+
+I avoided duplication of code with the use of helper functions such as the default constructor
+when I wanted to make the current object into a safe empty state, the isValid function to validate
+phone numbers, and the isEmpty function to check if the object is in a safe empty state.
+
+3. List what you have learned in completing this workshop.
+
+I learned to be careful when pverloading the assignment operator and putting the statement "*this = Contact();",
+it caused an infinite loop. I also learned about using long long ints in a practical matter, and using scientific
+notation in C++.

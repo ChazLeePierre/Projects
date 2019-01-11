@@ -1,0 +1,14 @@
+Script started on Tue 30 Jan 2018 04:29:37 PM EST
+cpierre4@matrix:~/ipc144/workshop2/athome> ws
+Please enter the amount to be paid: $8.68
+GST: 1.13
+Balance owing: $9.81
+Loonies required: 9, balance owing $0.81
+Quarters required: 3, balance owing $0.06
+Dimes required: 0, balance owing $0.06
+Nickels required: 1, balance owing $0.01
+Pennies required: 1, balance owing $0.00
+cpierre4@matrix:~/ipc144/workshop2/athome> exit
+exit
+
+Script done on Tue 30 Jan 2018 04:29:46 PM EST

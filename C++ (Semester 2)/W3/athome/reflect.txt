@@ -1,0 +1,45 @@
+// Workshop 3: Classes and Privacy
+// reflect.txt
+// June 6th 2018
+// Chaz Pierre
+// 123206179
+// cpierre4@myseneca.ca
+
+1. How many elements are there in each C-style character string that 
+stores a family or given name for the account? Why?
+
+The array size is set to 40 so it can store a maximum of 40 elements 
+but because it is a C-style character string, a null terminator must
+be included at the end of the string so practically it can store a
+maximum of 39 characters.
+
+2. Your class declares two member functions named set(...). In C, 
+this would generate an error. Name the feature of C++ that allows
+this.
+
+Function overloading. You can have multiple definitions with the 
+same identifier as long as the function signatures are different
+from each other.
+
+3. What have you learned in this workshop?
+
+I learned how to use classes and objects, accessing private 
+variables through public functions, and implementing Luhn's 
+algorithm within the code.
+
+Quiz 3 Reflection:
+
+5. If you do not declare any constructor does the compiler insert 
+a dummy constructor (answer: either true or false).
+
+True 
+
+6. The following definition returns an unmodifiable reference to
+the current object. Complete the code:
+
+const OOP244& OOP244::foo() const {
+	// . . . member function logic
+	return *this;
+}  
+
+

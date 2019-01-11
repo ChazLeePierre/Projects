@@ -1,0 +1,60 @@
+Script started on Tue 20 Feb 2018 03:49:20 PM EST
+cpierre4@matrix:~/ipc144/workshop5/inlab> ws
+---=== EMPLOYEE DATA ===---
+
+1. Display Employee Information
+2. Add Employee
+0. Exit
+
+Please select from the above options: 2
+
+Adding Employee
+===============
+Enter Employee ID: 111
+Enter Employee Age: 34
+Enter Employee Salary: 78980.88
+
+1. Display Employee Information
+2. Add Employee
+0. Exit
+
+Please select from the above options: 2
+
+Adding Employee
+===============
+Enter Employee ID: 112
+Enter Employee Age: 41
+Enter Employee Salary: 65000
+
+1. Display Employee Information
+2. Add Employee
+0. Exit
+
+Please select from the above options: 2
+
+Adding Employee
+===============
+ERROR!!! Maximum Number of Employees Reached
+
+1. Display Employee Information
+2. Add Employee
+0. Exit
+
+Please select from the above options: 1
+
+EMP ID  EMP AGE EMP SALARY
+======  ======= ==========
+   111       34   78980.88
+   112       41   65000.00
+
+1. Display Employee Information
+2. Add Employee
+0. Exit
+
+Please select from the above options: 0
+
+Exiting Employee Data Program. Good Bye!!!
+cpierre4@matrix:~/ipc144/workshop5/inlab> exo[[Kit
+exit
+
+Script done on Tue 20 Feb 2018 03:50:16 PM EST

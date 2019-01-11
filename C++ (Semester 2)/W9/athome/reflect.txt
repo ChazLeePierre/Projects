@@ -1,0 +1,36 @@
+Name: Chaz Pierre
+Email: cpierre4@myseneca.ca
+Student#: 123206179
+Workshop 9 reflect.txt
+
+1. What happens if you try to put your templated functions in Data.cpp? Does
+your source code compile if you move all functions to Data.h? Explain.
+
+If I move the templated functions to the Data.cpp file, I get a unresolved 
+external symbol error from the compiler, but that doesn't happen in the Data.h 
+file. 
+
+2. Move one templated function into ws9_lab.cpp. Does it work now? Do you
+need to define the template function above main(), before it is used, or can
+you define it below main()?
+
+The #include preprocessor directive's purpose is to copy all the contents of 
+a header file onto the top of the implementation file. By putting the templated
+function above the main function, we're manually doing what the #include statement
+would do so it would work.
+
+3. Could you have done this lab without templates, by just overloading your
+functions in Data.h to accept integer and double arguments? What is the
+advantage of using templates? 
+
+I could have just overloaded the functions, but I would need multiple definitions
+for essentially the same code just because there is different data types involved. 
+Templates help reduce code redundancy. 
+
+4. Are the following equivalent? 
+template<class T> 
+template<typename T>
+
+They produce the exact same result so I'd say they are equivalent. I read online that
+when you create a templated template, class should be use instead of typename otherwise
+it generates a compiler error. I think I will just stick to using class.

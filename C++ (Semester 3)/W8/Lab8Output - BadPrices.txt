@@ -1,0 +1,16 @@
+
+ Code Description
+ 4662    tomatoes
+ 4039   cucumbers
+ 4056    brocolli
+ 4067      lemons
+ 4068     oranges
+
+
+ Code   Price
+ 4067    0.99
+ 4068    0.67
+ 4039    1.99
+ 4056   -2.49
+
+*** Negative prices are invalid ***

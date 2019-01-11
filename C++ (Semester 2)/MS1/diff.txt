@@ -1,0 +1,10 @@
+
+In line number 40 of your output:
+The output should be:
+You entered: 0/00/00
+But your output is: 
+You entered: 10/01/01
+             ^
+-------------|
+Professor's character ASCII code: hex(30), dec(48)
+un-matched character ASCII code: hex(31), dec(49)

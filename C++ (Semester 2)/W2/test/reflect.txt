@@ -1,0 +1,82 @@
+/***********************************************************
+// OOP244 Workshop 2: Dynamic Memory
+// File: reflect.txt
+// Version 1.0
+// Date: May 25th 2018
+// Author: Chaz Pierre
+// Description: Reflection Questions and Quiz Corrections
+//
+// Revision History
+///////////////////////////////////////////////////////////
+// Name     Date    Reason
+//
+///////////////////////////////////////////////////////////
+***********************************************************/
+
+1. Why do you need to allocate new dynamic memory when you increase 
+the size of an existing array of dynamically allocated memory? 
+
+Array sizes are definitive so they must be known at compilation time
+and cannot be changed, so a workaround to this is to place the data
+of the array in a new dynamically allocated pointer and then assign 
+the new data from the new dynamically allocated pointer back to the
+original dynamically allocated pointer, in essence, changing the size
+of the array.
+
+2. The Kingdom structure stores the name of the kingdom in 
+an array of characters. At the end of the program, we do not 
+use the delete operator to deallocate the memory occupied by 
+the name. Why don't we need to use the delete operator on this 
+array itself? Explain.
+
+The m_name member allocated in the Kingdom structure has a statically
+allocated address which means the memory will be automatically freed
+once the function reaches the end of it's scope. If it was a dynamic-
+ally allocated variable, we would need to use the delete operator as
+it is the programmer's responsibility to keep track of dynamically 
+allocated variables.
+
+3. There are two display(...) function definitions. How does the 
+compiler know which definition to call from your main function?
+
+The compiler makes it's decision by comparing the arguments given 
+to the function in the function call vs. the parameters defined
+in the function prototype/definition. If the function call matches
+a function signature, the compiler will compile with the matching 
+definition. This concept is called overloading functions. 
+
+4. Explain what you have learned in this workshop.
+
+In this workshop I have learned how to allocate and deallocate 
+dynamic memory, resize an array using dynamic memory, and over-
+load a function. 
+
+Quiz 2 Reflection:
+
+1. A member function can be a query or modifier. Which C++ 
+keyword identifies it as a query?
+
+const
+
+3. Correct the errors in the following source code so that it 
+compiles successfully. Do not change the access permissions 
+for the members in your class definition of OOP244:
+
+void display() { std::cout << noStudents << std::endl; }
+sectionAB.set(79);
+sectionAB.display();
+
+4. Write the statement that discards one character from the 
+standard input buffer.
+
+cin.ignore();
+
+6. This program should display the number e to 4 decimal places 
+in a field of 10 on standard output. Add the statements 
+needed to produce this format. Use statements that will 
+ensure the same result if the value of e is changed to 
+234.56791234:
+
+cout.width(10);
+cout.precision(4);
+cout.setf(ios::scientific);

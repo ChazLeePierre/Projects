@@ -1,0 +1,10 @@
+
+In line number 25 of your output:
+The output should be:
+Enter Employee ID: 111
+But your output is: 
+Enter employee ID: 111
+      ^
+------|
+Professor's character ASCII code: hex(45), dec(69)
+un-matched character ASCII code: hex(65), dec(101)

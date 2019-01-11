@@ -1,0 +1,21 @@
+Name: Chaz Pierre
+Student number: 123206179
+Email: cpierre4@myseneca.ca
+Section: SHH
+Date: March 4th 2018
+Assignment: 1
+Milestone:  2
+
+1. Can you think of a more efficient way to ask a user to add the required information to each data field? 
+
+Organizing multiple related statements into seperate self-contained modules through the use of functions. 
+My program currently consists of a lot of printf and scanf statements, making the code look messy and 
+unorganized. The use of functions will improve the readability of my code while ensuring a
+cohesive design.
+
+2. Explain why a C string that is required to store up to 25 characters must be capable of storing 26 
+characters?
+
+A C string that can store up to 25 characters must be capable of storing 26 characters because a C string
+requires it's last element to be a null character '/0'. This null terminator has the value of zero and tells
+our program that this element is the end of our char array.

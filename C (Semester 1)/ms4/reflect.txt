@@ -1,0 +1,23 @@
+Name: Chaz Pierre
+Student number: 123206179
+Email: cpierre4@myseneca.ca
+Section: SHH
+Date: March 4th 2018
+Assignment: 1
+Milestone:  4
+
+1. Briefly explain why you think this assignment has asked you to code a struct, Contact, that holds three other structs as data members.
+
+I think this assignment has asked us to code a struct that holds other structs as data members to help organize our our structures better. In this
+workshop, we only had to deal with a few structures but if it was alot of structures, we would probably want to group related structures together
+and that's exactly what nested structures do.
+
+2. What was the most difficult part of this assignment?
+
+Personally, I found this assignment relatively easy. If I had to say that there was a difficult part, it would most likely be keeping track of the
+members in the new struct, Contact, especially when derefrencing the struct members within the function definitions.
+
+3. How long did it take you to complete Milestone 4?
+
+It took me approximately less than an hour to complete Milestone 4. All the logic was transferred over from Milestone 2 so it was just a matter of
+nesting the structs and putting all the code into self-contained functions.

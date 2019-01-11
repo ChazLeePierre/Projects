@@ -1,0 +1,18 @@
+Name: Chaz Pierre
+Student number: 123206179
+Email: cpierre4@myseneca.ca
+Workshop: 5
+Section: SHH
+Date: February 20th, 2018
+
+1) In two or three sentences discuss the advantages of using an array of structs versus parallel arrays when dealing with related data
+
+The advantages of using an array of structs versus parallel arrays when dealing with related data is if a programmer wanted to add another field
+of related data using parallel arrays, he/she would have to declare another array which can get unorganized fast if alot of fields are required.
+With an array of structures, the programmer would only have to increase the size of the array of the struct to add another field.
+
+2) The preferred method of declaring a struct data type is in a header file. Briefly explain why. 
+
+It is preferred to declare a struct data type in a header file for organizational purposes. If a structure declares a large amount of variables,
+it can clutter up the main function so it is preferred to declare in a header file to avoid surfing through declarations rather than focusing on
+the main code.

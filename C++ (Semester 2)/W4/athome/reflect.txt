@@ -1,0 +1,68 @@
+/**********************************************************
+// Workshop 4: Constructors
+// reflect.txt
+// Name: Chaz Pierre
+// Email: cpierre4@myseneca.ca
+// Student#: 123206179
+// Revision History
+///////////////////////////////////////////////////////////
+// Name			Date		                         Reason
+// 
+///////////////////////////////////////////////////////////
+**********************************************************/
+
+1. What is a safe empty state? Could you define another state as the safe empty state?
+
+A safe empty state is a concept where you set variables to a known value, most commonly
+zero or nullptr, so the program doesnt use invalid data whether it be for calculations
+or displaying it for the user.
+
+2. Describe how you have minimized code duplication.
+
+In both the overloaded constructor functions with multiple parameters, if the data was
+invalid, the program should not store that data but instead reset the variables to a 
+safe empty state. I could have manually set the variables back to zero/nullptr but I 
+already have done that in the original constructor so instead I assigned the original
+constructor to the overloaded constructor value when the data is invalid.
+
+3. Explain why the canTravelWith(...) member function can access the private data of the
+object referenced in its parameter.
+
+Even though the canTravelWith function is a public function, because it was declared 
+inside the same class as the private members, it is granted permission to access
+the private members without a compiler warning.
+
+4. What statement do you need to add to ensure that the strncpy(...) function executes 
+correctly?
+
+Because strncpy has a third argument that limits the amount of characters that can be
+copied over to the other string, there is a possibility the null-terminator will not 
+be added. To fix this issue, inserting an if statement that checks the sizeof() the 
+incoming string, if it is less than or equal to the size of the destination string, 
+the program can continue normally, but if not, handle the error some other way.
+
+5. Explain what you have learned in this workshop.
+
+I've learned how to overload constructors, understand and use an empty safe state
+with self-assignment to an overloaded constructor, and use the "this" operator correctly.
+
+Quiz 4 Reflection:
+
+5. Add the declaration that enables casting from an int to an OOP244 object to the following class definition.
+
+class OOP244 {
+		int noOfStudents;
+		long studentNumber[40];
+	public:
+		OOP244();
+		OOP244(int);
+		OOP244(const long*, int);
+		// other member functions
+	};	 
+
+6. The helper + operator for class OOP244 receives ________________ (select one)
+
+b. two parameters
+
+7. The keyword friend grants a helper function access to the private members of a class.
+

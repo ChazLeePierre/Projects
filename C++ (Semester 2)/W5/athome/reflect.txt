@@ -1,0 +1,30 @@
+/**********************************************************
+///////////////////////////////////////////////////////////
+// Workshop 5: Operator Overloading
+// reflect.txt
+// Name: Chaz Pierre
+// Email: cpierre4@myseneca.ca
+// Student#: 123206179
+///////////////////////////////////////////////////////////
+**********************************************************/
+
+1. The operator+ returns a Fraction object. Explain why this operator should not return a reference to a Fraction object.
+
+The Fraction object we created in the function was a local variable as it was created within the scope of a function definition,
+which means that at the end of the scope the Fraction object would be no longer accessible so returning a reference to an object
+that no longer exists would be pointless. In order to still maintain the object outside of the function, we needed to create a 
+copy of the Fraction object.
+
+2. List the temporary objects in the tester module.
+
+Any instance of 'total' variable of type 'Fraction' in the overloaded operator definitions are temporary objects 
+
+3. List the simplifications that you made to your class to minimize duplication.
+
+I minimized duplications by using functions such as isEmpty() and reduce() so I wouldn't have to use the same code in every 
+function definition. Also when overloading the operators, I noticed the logic for some of them were almost identical so I 
+used some defined operators in other operator overloaded definitions. Eg, + in +=, and == in !=.
+
+4. Explain what you have learned in this workshop.
+
+In this workshop I have learned how to overload operators, and return an object type rather than a primitive type in functions.

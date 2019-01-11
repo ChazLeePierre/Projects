@@ -1,4 +1,0 @@
-Command Line : C:\Users\S2Admin\source\repos\Project1\Debug\Project1.exe oop345 dps941 
-Maximum number of characters stored : 3
-0: oop
-1: dps

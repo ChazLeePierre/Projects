@@ -1,0 +1,268 @@
+Script started on Tue 07 Aug 2018 01:09:06 AM EDT
+[cpierre4@mtrx-node01pd MS1]$ ms1
+Checking defined and constant values: 
+Passed!
+Checking define values for error code in Data.h
+Passed!
+Testing the Date() constructor and the operator << overload; 
+Are these two dates the same? (regardless of format)
+1- 0/00/00
+2- 0/00/00
+(y)es/(n)o: y
+Passed!
+Testing Date(int, int, int) constructor and operator>> overload; 
+Enter the following date, 2018/10/18
+>30^H^H      2018
+^H^C
+[cpierre4@mtrx-node01pd MS1]$ ms1exitms1[K~md-nour.hossain/submit 244_w9_home[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvi reflect.txt [K~md-nour.hossain/submit 244_w9_home[K[K[K[K[K[K[Kms1
+[H[JSubmitter (V0.97.1)
+Submitting Final Project - Milestone 1
+g++ -Wall -std=c++0x -o ms1 244_ms1_tester_prof.cpp Date.cpp 2> error.txt
+Success! no errors or warnings...
+
+
+READ THE FOLLOWING CAREFULLY!
+I am about to execute the tester and script the output to "output.txt"
+Please enter the values carefuly and exactly as instructed.
+Press <ENTER> to start...
+[H[JFOLLOW THESE INSTRUCTIONS:
+1- Type ms1 and hit <ENTER>
+2- Use the test data specified in Final Project - Milestone 1 to test the program
+3- When done, type exit and hit <ENTER> to continue the submission process.
+Script started, file is output.txt
+[cpierre4@mtrx-node01pd MS1]$ ms1
+Checking defined and constant values: 
+Passed!
+Checking define values for error code in Data.h
+Passed!
+Testing the Date() constructor and the operator << overload; 
+Are these two dates the same? (regardless of format)
+1- 0/00/00
+2- 0/00/00
+(y)es/(n)o: y
+Passed!
+Testing Date(int, int, int) constructor and operator>> overload; 
+Enter the following date, 2018/10/18
+>2018/10/18
+Passed!
+Testing the logical operators: 
+Testing operator==
+passed!
+Testing operator>=
+passed!
+Testing operator<=
+passed!
+Testing operator!=
+passed!
+Testing operator<
+passed!
+Testing operator>
+passed!
+Testing operator<=
+passed!
+Testing operator>=
+passed!
+Testing error handling in read function;
+Testing cin failure detection, 
+Please enter the following string "abcd": abb^H   cd
+passed!
+Testing year validation, 
+Please enter the following string "10/1/1": 10/1/1
+You entered: 10/01/01
+passed!
+Testing month validation, 
+Please enter the following string "2000/13/1": 2000/13/1
+You entered: 2000/13/01
+Passed
+Testing day validation, 
+Please enter the following string "2000/1/50": 2000/1/50
+You entered: 2000/01/50
+Passed!
+Testing day validation, leap year:
+Please enter the following string "2016/2/29": 2016/2/29
+You entered: 2016/02/29
+passed!
+You passed all the tests!
+[cpierre4@mtrx-node01pd MS1]$ exit
+exit
+Script done, file is output.txt
+
+In line number 40 of your output:
+The output should be:
+You entered: 0/00/00
+But your output is: 
+You entered: 10/01/01
+             ^
+-------------|
+Professor's character ASCII code: hex(30), dec(48)
+un-matched character ASCII code: hex(31), dec(49)
+Outputs don't match. Submission aborted!
+[cpierre4@mtrx-node01pd MS1]$ ~md-nour.hossain/submit 244_ms1
+[H[JSubmitter (V0.97.1)
+Submitting Final Project - Milestone 1
+g++ -Wall -std=c++0x -o ms1 244_ms1_tester_prof.cpp Date.cpp 2> error.txt
+Success! no errors or warnings...
+
+
+READ THE FOLLOWING CAREFULLY!
+I am about to execute the tester and script the output to "output.txt"
+Please enter the values carefuly and exactly as instructed.
+Press <ENTER> to start...
+[H[JFOLLOW THESE INSTRUCTIONS:
+1- Type ms1 and hit <ENTER>
+2- Use the test data specified in Final Project - Milestone 1 to test the program
+3- When done, type exit and hit <ENTER> to continue the submission process.
+Script started, file is output.txt
+[cpierre4@mtrx-node01pd MS1]$ ms1
+Checking defined and constant values: 
+Passed!
+Checking define values for error code in Data.h
+Passed!
+Testing the Date() constructor and the operator << overload; 
+Are these two dates the same? (regardless of format)
+1- 0/00/00
+2- 0/00/00
+(y)es/(n)o: y
+Passed!
+Testing Date(int, int, int) constructor and operator>> overload; 
+Enter the following date, 2018/10/18
+>2018/10/18
+Passed!
+Testing the logical operators: 
+Testing operator==
+passed!
+Testing operator>=
+passed!
+Testing operator<=
+passed!
+Testing operator!=
+passed!
+Testing operator<
+passed!
+Testing operator>
+passed!
+Testing operator<=
+passed!
+Testing operator>=
+passed!
+Testing error handling in read function;
+Testing cin failure detection, 
+Please enter the following string "abcd": abcd
+passed!
+Testing year validation, 
+Please enter the following string "10/1/1": 10/1/1
+You entered: 10/01/01
+passed!
+Testing month validation, 
+Please enter the following string "2000/13/1": 2000/13/1
+You entered: 2000/13/01
+Passed
+Testing day validation, 
+Please enter the following string "2000/1/50": 2000/1/50
+You entered: 2000/01/50
+Passed!
+Testing day validation, leap year:
+Please enter the following string "2016/2/29": 2016/2/29
+You entered: 2016/02/29
+passed!
+You passed all the tests!
+[cpierre4@mtrx-node01pd MS1]$ exit
+exit
+Script done, file is output.txt
+
+In line number 40 of your output:
+The output should be:
+You entered: 0/00/00
+But your output is: 
+You entered: 10/01/01
+             ^
+-------------|
+Professor's character ASCII code: hex(30), dec(48)
+un-matched character ASCII code: hex(31), dec(49)
+Outputs don't match. Submission aborted!
+[cpierre4@mtrx-node01pd MS1]$ ~md-nour.hossain/submit 244_ms1
+[H[JSubmitter (V0.97.1)
+Submitting Final Project - Milestone 1
+g++ -Wall -std=c++0x -o ms1 244_ms1_tester_prof.cpp Date.cpp 2> error.txt
+Success! no errors or warnings...
+
+
+READ THE FOLLOWING CAREFULLY!
+I am about to execute the tester and script the output to "output.txt"
+Please enter the values carefuly and exactly as instructed.
+Press <ENTER> to start...
+[H[JFOLLOW THESE INSTRUCTIONS:
+1- Type ms1 and hit <ENTER>
+2- Use the test data specified in Final Project - Milestone 1 to test the program
+3- When done, type exit and hit <ENTER> to continue the submission process.
+Script started, file is output.txt
+ms[cpierre4@mtrx-node01pd MS1]$ msm[K1
+Checking defined and constant values: 
+Passed!
+Checking define values for error code in Data.h
+Passed!
+Testing the Date() constructor and the operator << overload; 
+Are these two dates the same? (regardless of format)
+1- 0/00/00
+2- 0/00/00
+(y)es/(n)o: y
+Passed!
+Testing Date(int, int, int) constructor and operator>> overload; 
+Enter the following date, 2018/10/18
+>2018/10/18
+Passed!
+Testing the logical operators: 
+Testing operator==
+passed!
+Testing operator>=
+passed!
+Testing operator<=
+passed!
+Testing operator!=
+passed!
+Testing operator<
+passed!
+Testing operator>
+passed!
+Testing operator<=
+passed!
+Testing operator>=
+passed!
+Testing error handling in read function;
+Testing cin failure detection, 
+Please enter the following string "abcd": abcd
+passed!
+Testing year validation, 
+Please enter the following string "10/1/1": 2^H   10/1/1
+You entered: 0/00/00
+passed!
+Testing month validation, 
+Please enter the following string "2000/13/1": 2000/13/1
+You entered: 0/00/00
+Passed
+Testing day validation, 
+Please enter the following string "2000/1/50": 2000/1/6  /50
+You entered: 0/00/00
+Passed!
+Testing day validation, leap year:
+Please enter the following string "2016/2/29": 2016/2/29
+You entered: 2016/02/29
+passed!
+You passed all the tests!
+[cpierre4@mtrx-node01pd MS1]$ exit
+exit
+Script done, file is output.txt
+Success!... Outputs match.
+
+Would you like to submit this demonstration of Final Project - Milestone 1? (Y)es/(N)o: y
+Thank you!, Your work is now submitted.
+[cpierre4@mtrx-node01pd MS1]$ 
+Broadcast message from root@mtrx-node01pd.dcm.senecacollege.ca (Tue 2018-08-07 03:20:02 EDT):
+
+Please save your files and logout now.
+The system is going down for reboot at Tue 2018-08-07 03:27:02 EDT!
+
+
+Broadcast message from root@mtrx-node01pd.dcm.senecacollege.ca (Tue 2018-08-07 03:21:02 EDT):
+
+Please save your f

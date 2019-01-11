@@ -1,0 +1,18 @@
+Name: Chaz Pierre
+Student number: 123206179
+Email: cpierre4@myseneca.ca
+Workshop: 3
+Section: SHH
+Date: Febuary 6th, 2018
+
+1) Name all the iteration constructs.
+
+The three iteration constructs are for loop, while loop, and do-while loop.
+
+2) In two to three sentences explain the dfference between a "do while" and a "while" loop?
+
+The while loop checks the condition of the loop before executing the statements in the while loop's code block. The do while loop checks the condition after the statements in the code block have been executed, if the value returns true, it will execute the loop again.
+
+3) In two or three sentences explain what is meant by the term conditional expression?
+
+A conditional expression evaluates if a condition is true or false; if it is true, it will execute the left operand after the question mark , but if it is false, it will evaluate the right operand after the colon.

@@ -1,0 +1,6 @@
+contactHelper.c: In function ‘ContactManagerSystem’:
+contactHelper.c:149:5: warning: ‘return’ with a value, in function returning void [enabled by default]
+contactHelper.c: In function ‘yes’:
+contactHelper.c:95:1: warning: control reaches end of non-void function [-Wreturn-type]
+contactHelper.c: In function ‘getIntInRange’:
+contactHelper.c:76:1: warning: control reaches end of non-void function [-Wreturn-type]

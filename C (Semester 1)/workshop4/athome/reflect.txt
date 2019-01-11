@@ -1,0 +1,18 @@
+Name: Chaz Pierre
+Student number: 123206179
+Email: cpierre4@myseneca.ca
+Workshop: 4
+Section: SHH
+Date: February 13th 2018
+
+1) In one or two sentences explain why the arrays in this program have to be declared to hold 10 elements?
+
+The arrays in this program have to be declared to hold 10 elements because the maximum amount of days a user can enter is 10. It is important to set the size of the array to the maximum amount of elements just incase the program needs in later.
+
+2) In two or three sentences explain the advantages and disadvantages of using matching arrays?
+
+An advantage of using matching arrays is that they both share the same index which makes it easier for organization. A disadvantage of using matching arrays is that there is no relationship between the arrays, so the compiler would not report an error if used wrong.
+
+3) Was the at home portion of this workshop too easy, just right or too hard? Why? 
+
+The at home portion of this workshop was just right as we used familiar concepts such as calculating the highest/lowest temperature like last workshop, but also introduced new concepts such as arrays and waiting until the user enters -1 to exit the program.   

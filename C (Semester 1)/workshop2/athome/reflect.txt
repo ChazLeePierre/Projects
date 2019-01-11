@@ -1,0 +1,31 @@
+/*
+Name: Chaz Pierre
+Student number: 123206179
+Email: cpierre4@myseneca.ca
+Workshop: 1
+Section: SHH
+Date: January 30th, 2018
+*/
+
+What do think is the most important thing you learned in this workshop?
+
+There is a lot of new concepts introduced in this workshop and I think the most important thing I have 
+learned from this activity was the use of the scanf() function. Being able to give the user control allows
+ for an infinite amount of possibilities with what they choose to do with the program.
+
+Why must you add .005 to the value derived when calculating the GST owing?
+
+The addition of the .005 value when calculating the GST owing is used to prevent rounding/truncation in cases 
+such as casting a variable's data type from a floating point type to an integral type.
+
+What is the result of a casting operation?
+
+The casting operation is used to temporarily change the data type of a variable. It is very useful in situations 
+where you would like to truncate a floating point type variable to an integral type variable so it loses it's 
+decimal value.
+
+Why do you think you were required to use the modulus operator in this workshop?
+
+I think I was required to use the modulus operator in this workshop to differentiate the different types of methods
+used to calculate operations. The same output can be reproduced using different operators but the modulus operator 
+may have been the more elegant solution.

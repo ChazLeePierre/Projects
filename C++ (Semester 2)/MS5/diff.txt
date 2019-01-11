@@ -1,0 +1,10 @@
+
+In line number 132 of your output:
+The output should be:
+   Yours: 1234   |box                 | 139.50|   1|kg        |   5|
+But your output is: 
+   Yours:        |box                 |   0.00|   0|          |   0|
+          ^
+----------|
+Professor's character ASCII code: hex(31), dec(49)
+un-matched character ASCII code: hex(20), dec(32)

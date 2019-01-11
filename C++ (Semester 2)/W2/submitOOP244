@@ -1,0 +1,6 @@
+#/bin/bash
+
+# Submit OOP244 Workshops and Assignments
+# Developed by Chaz Pierre
+
+~chris.szalwinski/submit 244_$1_$2

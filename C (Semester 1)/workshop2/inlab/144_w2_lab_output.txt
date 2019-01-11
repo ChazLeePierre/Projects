@@ -1,0 +1,9 @@
+Script started on Fri 26 Jan 2018 07:31:14 PM EST
+cameron.gray@matrix:> ws
+Please enter the amount to be paid: $8.68
+Loonies required: 8, balance owing $0.68
+Quarters required: 2, balance owing $0.18
+cameron.gray@matrix:> exit
+exit
+
+Script done on Fri 26 Jan 2018 07:31:29 PM EST

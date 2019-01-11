@@ -1,0 +1,9 @@
+Script started on Tue 30 Jan 2018 03:24:37 PM EST
+cpierre4@matrix:~/ipc144/workshop2/inlab> ws
+Please enter the amount to be paid: $8.68
+Loonies required: 8, balance owing $0.68
+Quarters required: 2, balance owing $0.18
+cpierre4@matrix:~/ipc144/workshop2/inlab> exit
+exit
+
+Script done on Tue 30 Jan 2018 03:24:46 PM EST
